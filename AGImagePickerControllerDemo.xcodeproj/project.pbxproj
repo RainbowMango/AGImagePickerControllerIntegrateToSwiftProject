@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25BC42F87BE30C849B5FC4BB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 765A73DB472C6838CF445496 /* libPods.a */; };
 		9B91A1FD1AE2879D00B6F82A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91A1FC1AE2879D00B6F82A /* AppDelegate.swift */; };
 		9B91A2001AE2879D00B6F82A /* AGImagePickerControllerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B91A1FE1AE2879D00B6F82A /* AGImagePickerControllerDemo.xcdatamodeld */; };
 		9B91A2021AE2879D00B6F82A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91A2011AE2879D00B6F82A /* ViewController.swift */; };
@@ -15,6 +14,15 @@
 		9B91A2071AE2879D00B6F82A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B91A2061AE2879D00B6F82A /* Images.xcassets */; };
 		9B91A20A1AE2879D00B6F82A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B91A2081AE2879D00B6F82A /* LaunchScreen.xib */; };
 		9B91A2161AE2879E00B6F82A /* AGImagePickerControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91A2151AE2879E00B6F82A /* AGImagePickerControllerDemoTests.swift */; };
+		9BD29F0D1AE2B1ED000B57C0 /* AGImagePickerController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29EFC1AE2B1ED000B57C0 /* AGImagePickerController+Helper.m */; };
+		9BD29F0E1AE2B1ED000B57C0 /* AGImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BD29EFD1AE2B1ED000B57C0 /* AGImagePickerController.bundle */; };
+		9BD29F0F1AE2B1ED000B57C0 /* AGImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29EFF1AE2B1ED000B57C0 /* AGImagePickerController.m */; };
+		9BD29F101AE2B1ED000B57C0 /* AGIPCAlbumsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29F021AE2B1ED000B57C0 /* AGIPCAlbumsController.m */; };
+		9BD29F111AE2B1ED000B57C0 /* AGIPCAssetsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29F041AE2B1ED000B57C0 /* AGIPCAssetsController.m */; };
+		9BD29F121AE2B1ED000B57C0 /* AGIPCGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29F061AE2B1ED000B57C0 /* AGIPCGridCell.m */; };
+		9BD29F131AE2B1ED000B57C0 /* AGIPCGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29F081AE2B1ED000B57C0 /* AGIPCGridItem.m */; };
+		9BD29F141AE2B1ED000B57C0 /* AGIPCToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29F0A1AE2B1ED000B57C0 /* AGIPCToolbarItem.m */; };
+		9BD29F151AE2B1ED000B57C0 /* ALAsset+AGIPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD29F0C1AE2B1ED000B57C0 /* ALAsset+AGIPC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,24 @@
 		9B91A2141AE2879E00B6F82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B91A2151AE2879E00B6F82A /* AGImagePickerControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGImagePickerControllerDemoTests.swift; sourceTree = "<group>"; };
 		9B91A21F1AE28A6F00B6F82A /* AGImagePickerControllerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGImagePickerControllerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BD29EFB1AE2B1ED000B57C0 /* AGImagePickerController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGImagePickerController+Helper.h"; sourceTree = "<group>"; };
+		9BD29EFC1AE2B1ED000B57C0 /* AGImagePickerController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGImagePickerController+Helper.m"; sourceTree = "<group>"; };
+		9BD29EFD1AE2B1ED000B57C0 /* AGImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AGImagePickerController.bundle; sourceTree = "<group>"; };
+		9BD29EFE1AE2B1ED000B57C0 /* AGImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGImagePickerController.h; sourceTree = "<group>"; };
+		9BD29EFF1AE2B1ED000B57C0 /* AGImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGImagePickerController.m; sourceTree = "<group>"; };
+		9BD29F001AE2B1ED000B57C0 /* AGImagePickerControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGImagePickerControllerDefines.h; sourceTree = "<group>"; };
+		9BD29F011AE2B1ED000B57C0 /* AGIPCAlbumsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCAlbumsController.h; sourceTree = "<group>"; };
+		9BD29F021AE2B1ED000B57C0 /* AGIPCAlbumsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCAlbumsController.m; sourceTree = "<group>"; };
+		9BD29F031AE2B1ED000B57C0 /* AGIPCAssetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCAssetsController.h; sourceTree = "<group>"; };
+		9BD29F041AE2B1ED000B57C0 /* AGIPCAssetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCAssetsController.m; sourceTree = "<group>"; };
+		9BD29F051AE2B1ED000B57C0 /* AGIPCGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCGridCell.h; sourceTree = "<group>"; };
+		9BD29F061AE2B1ED000B57C0 /* AGIPCGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCGridCell.m; sourceTree = "<group>"; };
+		9BD29F071AE2B1ED000B57C0 /* AGIPCGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCGridItem.h; sourceTree = "<group>"; };
+		9BD29F081AE2B1ED000B57C0 /* AGIPCGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCGridItem.m; sourceTree = "<group>"; };
+		9BD29F091AE2B1ED000B57C0 /* AGIPCToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGIPCToolbarItem.h; sourceTree = "<group>"; };
+		9BD29F0A1AE2B1ED000B57C0 /* AGIPCToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGIPCToolbarItem.m; sourceTree = "<group>"; };
+		9BD29F0B1AE2B1ED000B57C0 /* ALAsset+AGIPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+AGIPC.h"; sourceTree = "<group>"; };
+		9BD29F0C1AE2B1ED000B57C0 /* ALAsset+AGIPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+AGIPC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BC42F87BE30C849B5FC4BB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +109,7 @@
 		9B91A1EE1AE2879D00B6F82A = {
 			isa = PBXGroup;
 			children = (
+				9BD29EFA1AE2B1ED000B57C0 /* AGImagePickerController */,
 				9B91A1F91AE2879D00B6F82A /* AGImagePickerControllerDemo */,
 				9B91A2121AE2879E00B6F82A /* AGImagePickerControllerDemoTests */,
 				9B91A1F81AE2879D00B6F82A /* Products */,
@@ -141,6 +167,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9BD29EFA1AE2B1ED000B57C0 /* AGImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				9BD29EFB1AE2B1ED000B57C0 /* AGImagePickerController+Helper.h */,
+				9BD29EFC1AE2B1ED000B57C0 /* AGImagePickerController+Helper.m */,
+				9BD29EFD1AE2B1ED000B57C0 /* AGImagePickerController.bundle */,
+				9BD29EFE1AE2B1ED000B57C0 /* AGImagePickerController.h */,
+				9BD29EFF1AE2B1ED000B57C0 /* AGImagePickerController.m */,
+				9BD29F001AE2B1ED000B57C0 /* AGImagePickerControllerDefines.h */,
+				9BD29F011AE2B1ED000B57C0 /* AGIPCAlbumsController.h */,
+				9BD29F021AE2B1ED000B57C0 /* AGIPCAlbumsController.m */,
+				9BD29F031AE2B1ED000B57C0 /* AGIPCAssetsController.h */,
+				9BD29F041AE2B1ED000B57C0 /* AGIPCAssetsController.m */,
+				9BD29F051AE2B1ED000B57C0 /* AGIPCGridCell.h */,
+				9BD29F061AE2B1ED000B57C0 /* AGIPCGridCell.m */,
+				9BD29F071AE2B1ED000B57C0 /* AGIPCGridItem.h */,
+				9BD29F081AE2B1ED000B57C0 /* AGIPCGridItem.m */,
+				9BD29F091AE2B1ED000B57C0 /* AGIPCToolbarItem.h */,
+				9BD29F0A1AE2B1ED000B57C0 /* AGIPCToolbarItem.m */,
+				9BD29F0B1AE2B1ED000B57C0 /* ALAsset+AGIPC.h */,
+				9BD29F0C1AE2B1ED000B57C0 /* ALAsset+AGIPC.m */,
+			);
+			path = AGImagePickerController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,11 +199,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B91A2191AE2879E00B6F82A /* Build configuration list for PBXNativeTarget "AGImagePickerControllerDemo" */;
 			buildPhases = (
-				9A03B2AC0F3E352A79D91B72 /* Check Pods Manifest.lock */,
 				9B91A1F31AE2879D00B6F82A /* Sources */,
 				9B91A1F41AE2879D00B6F82A /* Frameworks */,
 				9B91A1F51AE2879D00B6F82A /* Resources */,
-				BB08C88772B689CD18C11BC6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +275,7 @@
 				9B91A2051AE2879D00B6F82A /* Main.storyboard in Resources */,
 				9B91A20A1AE2879D00B6F82A /* LaunchScreen.xib in Resources */,
 				9B91A2071AE2879D00B6F82A /* Images.xcassets in Resources */,
+				9BD29F0E1AE2B1ED000B57C0 /* AGImagePickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,46 +288,21 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9A03B2AC0F3E352A79D91B72 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BB08C88772B689CD18C11BC6 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		9B91A1F31AE2879D00B6F82A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD29F101AE2B1ED000B57C0 /* AGIPCAlbumsController.m in Sources */,
+				9BD29F141AE2B1ED000B57C0 /* AGIPCToolbarItem.m in Sources */,
+				9BD29F151AE2B1ED000B57C0 /* ALAsset+AGIPC.m in Sources */,
 				9B91A2021AE2879D00B6F82A /* ViewController.swift in Sources */,
+				9BD29F111AE2B1ED000B57C0 /* AGIPCAssetsController.m in Sources */,
 				9B91A2001AE2879D00B6F82A /* AGImagePickerControllerDemo.xcdatamodeld in Sources */,
+				9BD29F121AE2B1ED000B57C0 /* AGIPCGridCell.m in Sources */,
+				9BD29F0D1AE2B1ED000B57C0 /* AGImagePickerController+Helper.m in Sources */,
+				9BD29F0F1AE2B1ED000B57C0 /* AGImagePickerController.m in Sources */,
+				9BD29F131AE2B1ED000B57C0 /* AGIPCGridItem.m in Sources */,
 				9B91A1FD1AE2879D00B6F82A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
